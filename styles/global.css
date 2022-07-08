@@ -1,14 +1,16 @@
 @import url(./header.css);
-
+@import url(./hero.css);
 
 
 
 body{
   margin: 0px;
+  background: #E5E5E5;
 }
 
 .container{
 width:75vw;
 height: auto;
 margin: 0 auto;
+
 }

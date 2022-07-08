@@ -1,0 +1,88 @@
+.hero__content {
+  background: url('../icons/hero-img/hero.png') no-repeat;
+  background-attachment: fixed;
+  /* background-size: cover; */
+  /* width: 100vw; */
+
+  height: 70vh;
+}
+
+.hero {
+  height: 60vh;
+}
+
+.hero__slider {
+  max-width: 1110px;
+  margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+}
+.hero__slider-left {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hero__slider_right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 3%;
+}
+.slider__controls {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  height: 3%;
+}
+
+.hero__title {
+  width: 100%;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+
+  color: #ffffff;
+}
+.slider__controls div {
+  width: 3%;
+  height: 45%;
+  border: 1px solid gray;
+  background-color: gray;
+  border-radius: 100%;
+}
+
+.first-screen__button {
+  width: 40%;
+  height: 10%;
+  background: #005fa3;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+.slider__button-prev img  {
+fill: white ;
+}
+.slider__button-next img  {
+  fill: red ;
+  }
+
+.slider__button-prev {
+  opacity: 0.2;
+  height: 10%;
+  width: 8%;
+}
+.slider__button-next {
+  opacity: 0.2;
+  height: 10%;
+  width: 8%;
+}
